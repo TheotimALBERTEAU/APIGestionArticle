@@ -103,4 +103,4 @@ mvn spring-boot:run
 
 ## 👤 Auteur
 
-**Théotim ALBERTEAU** - [GitHub](https://www.google.com/search?q=https://github.com/TheotimALBERTEAU)
+**Théotim ALBERTEAU** - [GitHub](https://github.com/TheotimALBERTEAU)
