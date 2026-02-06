@@ -56,13 +56,12 @@ spring.jpa.properties.hibernate.format_sql=true
 
 ## 🚦 Utilisation (Endpoints)
 
-| Méthode | Endpoint       | Description                                                         |
-| --- |----------------|---------------------------------------------------------------------|
-| **GET** | `/getAll`      | Récupère la liste de tous les articles.                             |
-| **GET** | `/getId/{id}`  | Récupère un article par son ID.                                     |
-| **POST** | `/save`        | Crée un nouvel article.                                             |
-| **PUT** | `/save`        | Modifie un article existant (ID requis dans le body de la requête). |
-| **DELETE** | `/delete/{id}` | Supprime un article par son ID.                                     |
+| Méthode | Endpoint       | Description                                                                              |
+| --- |----------------|------------------------------------------------------------------------------------------|
+| **GET** | `/getAll`      | Récupère la liste de tous les articles.                                                  |
+| **GET** | `/getId/{id}`  | Récupère un article par son ID.                                                          |
+| **POST** | `/save`        | Crée un nouvel article. Ou le modifier si son ID est inclus dans le corps de la requête. |
+| **DELETE** | `/delete/{id}` | Supprime un article par son ID.                                                          |
 
 ### Exemple de réponse JSON :
 
